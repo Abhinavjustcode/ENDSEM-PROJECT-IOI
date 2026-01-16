@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THEORY</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="#">THEORY</a>
+      
+      <div class="d-flex order-lg-last gap-4 align-items-center">
+        <a href="#" class="nav-link">Search</a>
+        <button class="btn p-0 border-0 nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar">
+          BAG (<span id="cart-badge-text">0</span>)
+        </button>
+      </div>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon custom-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link" href="#shop">Shop All</a></li>
+          <li class="nav-item"><a class="nav-link" href="#men">Man</a></li>
+          <li class="nav-item"><a class="nav-link" href="#women">Woman</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container-fluid px-4">
+      <div class="hero-content d-flex justify-content-between align-items-end">
+        <div>
+          <h1 class="display-1 fw-bold mb-0 hero-title">WINTER 2026</h1>
+          <p class="mb-4 text-uppercase small hero-subtitle">Technical Elegance / Vol. 4</p>
+        </div>
+        <button class="btn-minimal mb-2">View Collection</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop" class="py-5">
+    <div class="container-fluid px-4">
+      
+      <div class="d-flex justify-content-between align-items-center mb-5 shop-header">
+        <h2 class="h6 mb-0 text-uppercase fw-bold">Latest Arrivals</h2>
+        <div>
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="men">Men</button>
+          <button class="filter-btn" data-filter="women">Women</button>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        
+        <div class="col-lg-3 col-md-6 shoe-card" data-category="men">
+          <div class="card-inner">
+            <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=700&fit=crop" class="card-img-top w-100" alt="Obsidian Hoodie">
+            <div class="product-meta">
+              <div>
+                <h5 class="card-title">Obsidian Hoodie</h5>
+                <div class="btn-add-minimal btn-add" data-name="Obsidian Hoodie" data-price="2499">Add to Bag</div>
+              </div>
+              <p class="price">₹2,499</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 shoe-card" data-category="men">
+          <div class="card-inner">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700&fit=crop" class="card-img-top w-100" alt="Utility Bomber">
+            <div class="product-meta">
+              <div>
+                <h5 class="card-title">Utility Bomber</h5>
+                <div class="btn-add-minimal btn-add" data-name="Utility Bomber" data-price="3999">Add to Bag</div>
+              </div>
+              <p class="price">₹3,999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 shoe-card" data-category="women">
+          <div class="card-inner">
+            <img src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=700&fit=crop" class="card-img-top w-100" alt="Graphic Oversize">
+            <div class="product-meta">
+               <div>
+                <h5 class="card-title">Graphic Oversize</h5>
+                <div class="btn-add-minimal btn-add" data-name="Graphic Oversize" data-price="1299">Add to Bag</div>
+              </div>
+              <p class="price">₹1,299</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 shoe-card" data-category="women">
+          <div class="card-inner">
+            <img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=700&fit=crop" class="card-img-top w-100" alt="Vintage Jacket">
+            <div class="product-meta">
+               <div>
+                <h5 class="card-title">Vintage Jacket</h5>
+                <div class="btn-add-minimal btn-add" data-name="Vintage Jacket" data-price="3499">Add to Bag</div>
+              </div>
+              <p class="price">₹3,499</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section">
+      <video autoplay muted loop playsinline class="bg-video">
+          <source src="https://player.vimeo.com/external/371836186.sd.mp4?s=d00e7939105432658826725350718507c579308e&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+      </video>
+      <div class="video-content">
+          <h2 class="text-uppercase video-subtext">SET</h2>
+          <p class="display-4 fw-bold">YOUR OWN THEORY</p>
+      </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid px-4">
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <h5 class="footer-heading">Theory.</h5>
+          <p class="footer-desc">Merging technical innovation with classic silhouettes.</p>
+        </div>
+        <div class="col-md-2 col-6">
+          <h6 class="footer-heading">Shop</h6>
+          <a href="#" class="footer-link">Men</a>
+          <a href="#" class="footer-link">Women</a>
+          <a href="#" class="footer-link">Objects</a>
+        </div>
+        <div class="col-md-2 col-6">
+          <h6 class="footer-heading">Support</h6>
+          <a href="#" class="footer-link">Returns</a>
+          <a href="#" class="footer-link">Shipping</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <div class="col-md-4 ms-auto">
+          <h6 class="footer-heading">Newsletter</h6>
+          <div class="input-group newsletter-group">
+            <input type="text" class="form-control border-0 px-0" placeholder="Email Address">
+            <button class="btn p-0 text-uppercase fw-bold subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between mt-5 text-uppercase copyright-text">
+        <span>&copy; 2026</span>
+        <span>Theory Apparel</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cartSidebar">
+    <div class="offcanvas-header justify-content-between">
+      <h6 class="offcanvas-title text-uppercase fw-bold">Your Bag</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column p-4">
+      <div id="empty-cart-msg" class="text-center my-auto">
+        <p class="text-muted small text-uppercase">Empty</p>
+      </div>
+      <div id="cart-items-container" class="flex-grow-1 overflow-auto"></div>
+      
+      <div id="cart-footer" class="mt-auto pt-4 cart-footer-hidden">
+        <div class="d-flex justify-content-between mb-3 text-uppercase fw-bold">
+          <span>Total</span>
+          <span>₹<span id="offcanvas-total">0</span></span>
+        </div>
+        <button class="btn-checkout-black" id="btn-checkout">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body confirmation-card text-center">
+          <h3 class="fw-bold text-uppercase mb-3">Confirmed</h3>
+          <p class="text-muted small mb-4">Your order has been received.</p>
+          <div class="py-3 mb-3 conf-details">
+            <p class="mb-1 small text-uppercase text-muted">Order ID</p>
+            <div class="fw-bold" id="conf-order-id"></div>
+          </div>
+          <button class="btn btn-outline-dark w-100 rounded-0 text-uppercase" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var cart = []; 
+
+      $('.filter-btn').click(function () {
+        var category = $(this).data('filter');
+        $('.filter-btn').removeClass('active');
+        $(this).addClass('active');
+        $('.shoe-card').hide().fadeIn(300);
+        if (category !== 'all') {
+          $('.shoe-card').each(function () {
+            if ($(this).data('category') !== category) $(this).hide();
+          });
+        }
+      });
+
+      $('.btn-add').click(function () {
+        var btn = $(this);
+        var item = {
+          id: Date.now(), 
+          name: btn.data('name'),
+          price: parseInt(btn.data('price')),
+          image: btn.closest('.card-inner').find('img').attr('src')
+        };
+        cart.push(item);
+        updateCartUI();
+        
+        var originalText = btn.text();
+        btn.text('Added');
+        setTimeout(function(){ btn.text(originalText); }, 1000);
+        
+        var myOffcanvas = new bootstrap.Offcanvas(document.getElementById('cartSidebar'));
+        myOffcanvas.show();
+      });
+
+      $(document).on('click', '.btn-remove', function() {
+        var idToRemove = $(this).data('id');
+        cart = cart.filter(item => item.id !== idToRemove);
+        updateCartUI();
+      });
+
+      $('#btn-checkout').click(function() {
+        var orderId = '#THEORY-' + Math.floor(Math.random() * 90000 + 10000);
+        var finalTotal = cart.reduce((acc, item) => acc + item.price, 0);
+
+        $('#conf-order-id').text(orderId);
+        
+        var sidebarInstance = bootstrap.Offcanvas.getInstance(document.getElementById('cartSidebar'));
+        sidebarInstance.hide();
+        var modal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+        modal.show();
+
+        cart = [];
+        updateCartUI();
+      });
+
+      function updateCartUI() {
+        var container = $('#cart-items-container');
+        var total = 0;
+        container.empty();
+
+        if (cart.length === 0) {
+          $('#empty-cart-msg').show();
+          $('#cart-footer').hide();
+          $('#cart-badge-text').text('0');
+        } else {
+          $('#empty-cart-msg').hide();
+          $('#cart-footer').show();
+          $('#cart-badge-text').text(cart.length);
+
+          cart.forEach(function(item) {
+            total += item.price;
+            var html = `
+              <div class="d-flex align-items-center mb-3">
+                <img src="${item.image}" class="cart-item-img">
+                <div class="flex-grow-1">
+                  <h6 class="mb-0 text-uppercase" style="font-size: 0.8rem;">${item.name}</h6>
+                  <span class="text-muted small">₹${item.price.toLocaleString()}</span>
+                </div>
+                <div class="btn-remove" data-id="${item.id}">Remove</div>
+              </div>`;
+            container.append(html);
+          });
+        }
+        $('#offcanvas-total').text(total.toLocaleString());
+      }
+    });
+  </script>
+</body>
+</html>
